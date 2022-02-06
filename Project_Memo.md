@@ -2,7 +2,7 @@
 <br>
 
 <p align="center">
-  <img width="500" height="300" src="memo.png">
+  <img width="550" height="400" src="memo.png">
 </p>
 
 ---
@@ -42,7 +42,7 @@ If the two cards match, then they are removed from the game, otherwise they are 
 
 First view of the application is a window that describe the game for the player visiter ,Then the player must either choose play or exit if the game don't interest him.
 <p align="center">
-  <img width="500" height="300" src="Intro.jpg">
+  <img width="550" height="400" src="Intro.jpg">
 </p>
 
 To build this form ,we use the Qt Designer ,Then to give sence to the buttons we create a class that we call it "**Intro**" and here is it's main implementation.
@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
 The **<span style="color:turquoise">Start button  </span>** is clicked, that's take us to another class which is the game ,I mean it's implementation, it's traduction in c++.
 
 <p align="center">
-  <img width="500" height="300" src="start.png">
+  <img width="550" height="400" src="start.png">
 </p>
 
 
@@ -347,13 +347,13 @@ void MemoryGame::finalResult(){
  * whene the player find all the similar pictures and the time is not over, a message box will display informing the player that he won and how much his score is.
 
  <p align="center">
-  <img width="500" height="300" src="win.png">
+  <img width="550" height="400" src="win.png">
 </p>
 
 * the other case in when the time is over and the player do not find all cards.
 
  <p align="center">
-  <img width="500" height="300" src="lost.png">
+  <img width="550" height="400" src="lost.png">
 </p>
 
  NB: Always a restart game is offered.
