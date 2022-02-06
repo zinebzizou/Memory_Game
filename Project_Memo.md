@@ -42,7 +42,7 @@ If the two cards match, then they are removed from the game, otherwise they are 
 
 First view of the application is a window that describe the game for the player visiter ,Then the player must either choose play or exit if the game don't interest him.
 <p align="center">
-  <img width="500" height="300" src="intro.jpg">
+  <img width="500" height="300" src="Intro.jpg">
 </p>
 
 To build this form ,we use the Qt Designer ,Then to give sence to the buttons we create a class that we call it "**Intro**" and here is it's main implementation.
